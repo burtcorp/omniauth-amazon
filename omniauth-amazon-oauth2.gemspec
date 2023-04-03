@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'omniauth/amazon/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "omniauth-amazon"
+  spec.name          = "omniauth-amazon-oauth2"
   spec.version       = OmniAuth::Amazon::VERSION
-  spec.authors       = ["Stafford Brunk"]
-  spec.email         = ["stafford.brunk@gmail.com"]
-  spec.description   = %q{Login with Amazon OAuth2 strategy for OmniAuth 1.0}
-  spec.summary       = %q{Login with Amazon OAuth2 strategy for OmniAuth 1.0}
-  spec.homepage      = "https://github.com/wingrunr21/omniauth-amazon"
+  spec.authors       = ["Kristoffer Ek', 'Josef Ngo', 'Sten Larsson"]
+  spec.email         = ["kristoffer.ek@burtcorp.com', 'josef.ngo@burtcorp.com', 'sten@burtcorp.com"]
+  spec.description   = %q{Login with Amazon OAuth2 strategy for OmniAuth 2.0}
+  spec.summary       = %q{Login with Amazon OAuth2 strategy for OmniAuth 2.0}
+  spec.homepage      = "https://github.com/burtcorp/omniauth-amazon"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
